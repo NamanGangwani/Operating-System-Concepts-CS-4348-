@@ -1,0 +1,46 @@
+1 // Load 26
+26
+27 // Push AC
+1  // Load 65
+65
+27 // Push AC
+
+// START OF LOOP
+28 // Pop to AC
+16 // CopyToY
+28 // Pop to AC
+14 // CopyToX
+21 // JumpIfEqual end
+29
+26 // DecX
+15 // CopyFromX
+27 // Push AC
+25 // IncX
+20 // Jump 30 (to print function)
+30
+17 // CopyFromY
+14 // CopyToX
+25 // IncX
+15 // CopyFromX
+27 // Push AC
+1 // Print newline
+10
+9
+2
+20 // Jump 6
+6
+50
+
+PRINT FUNCTION
+17 // CopyFromY
+9 // Put 2 (output as char)
+2
+26 // DecX
+15 // CopyFromX
+21 // JumpIfEqual 18
+18
+20 // Jump 30
+30
+
+.1000
+30
