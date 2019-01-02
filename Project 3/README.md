@@ -1,13 +1,20 @@
 Author: Naman Gangwani
+
 NetID: nkg160030
+
 Date: April 23, 2018
+
 Class: CS 4348.002
 
+
 How to compile this program (in a UNIX environment):
+	
 	g++ Project3.cpp
 
 How to run the program:
+	
 	./a.out <algorithm>
+
 where <algorithm> is either FCFS, RR, SPN, SRT, HRRN, FB, or ALL. Case sensitivity matters. If an invalid <algorithm> type is entered, the program will output nothing and terminate.
 
 There should be a file called "jobs.txt" in the same directory as Project3.cpp when compiling and running the program. The contents of jobs.txt should match the specifications in the project description:
