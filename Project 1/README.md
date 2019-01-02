@@ -12,15 +12,17 @@ Project files:
 
 How to compile:
 
-Step 1: Make sure you are in a UNIX environment and have both files in your current directory
+1. Make sure you are in a UNIX environment and have both files in your current directory
 
-Step 2: Compile both files with this command: 
+2. Compile both files with this command: 
 	javac Project1.java Memory.java
 
 How to run:
 
 Run the main method file (Project1) and provide program filename and timer interrupt value as arguments of the command in this syntax:
+	
 	java Project1 <program filename> <timer interrupt>
 
 For example, if you want to run "sample5.txt" with a timer interrupt value of 30:
+	
 	java Project1 sample5.txt 30
